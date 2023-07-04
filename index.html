@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230704195928">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="80" data-scroll-show="300" class="header">
+			<div class="header__wrapper">
+				<div class="header__container">
+					<div class="header__body">
+						<a data-goto="#main" href="" class="header__logo">
+							<img src="img/logo-svg.svg" alt="logo">
+						</a>
+						<div class="header__menu menu">
+							<div class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a data-goto="#directions" href="" class="menu__link">Направления</a>
+									</li>
+									<li data-goto="#teachers" class="menu__item">
+										<a href="" class="menu__link">Учителя</a>
+									</li>
+									<li data-goto="#prices" class="menu__item">
+										<a href="" class="menu__link">Цены</a>
+									</li>
+									<li data-goto="#schedule" class="menu__item">
+										<a href="" class="menu__link">Расписание</a>
+									</li>
+									<li data-goto="#reviews" class="menu__item">
+										<a href="" class="menu__link">Отзывы</a>
+									</li>
+									<li data-goto="#footer" class="menu__item">
+										<a href="" class="menu__link">Контакты</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<a href="tel:+73035550105" class="header__phone _icon-phone">+7 (303) 555-0105</a>
+						<button type="button" class="icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section id="main" class="page__main main">
+				<div class="main__container">
+					<div class="main__body">
+						<div class="main__img _ibg">
+							<picture>
+								<source media="(max-width: 560px)" srcset="img/main/main_mobile.png">
+								<img src="img/main/main.png" alt="Dancers">
+							</picture>
+						</div>
+						<div class="main__titles">
+							<h1 class="main__title main__title_first">Быть счастливым просто...</h1>
+							<h1 class="main__title main__title_second">
+								<div class="dance">Танцуй. </div>
+								<div class="will">Будь.</div>
+							</h1>
+						</div>
+						<a href="" class="main__button button">Пробное бесплатно</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__benefits benefits">
+				<div class="benefits__container">
+					<div class="benefits__body">
+						<h2 class="benefits__title title_h2">Приходите, вас ждет</h2>
+						<div data-watch class="benefits__cards cards-benefits">
+							<div class="cards-benefits__item cards-benefits_first">
+								<div class="cards-benefits__text">Импровизация, а не заучивание движений.</div>
+							</div>
+							<div class="cards-benefits__item cards-benefits_second">
+								<div class="cards-benefits__text">Дружное сообщество.</div>
+							</div>
+							<div class="cards-benefits__item cards-benefits_first">
+								<div class="cards-benefits__text">Участие в танцевальных «батлах».</div>
+							</div>
+							<div class="cards-benefits__item cards-benefits_second">
+								<div class="cards-benefits__text">Концертные номера для детей и взрослых.</div>
+							</div>
+							<div class="cards-benefits__item cards-benefits_first">
+								<div class="cards-benefits__text">Танцевальная «база» в каждом стиле.</div>
+							</div>
+							<div class="cards-benefits__item cards-benefits_second">
+								<div class="cards-benefits__text">Учителя, которые «живут» танцем.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="directions" class="page__directions directions">
+				<div class="directions__container">
+					<div class="directions__body">
+						<h2 class="directions__title title_h2">Что душе угодно, а у нас доступно</h2>
+						<div class="directions__cards">
+							<div id="house" class="directions__card card-directions">
+								<div class="card-directions__title">House</div>
+								<div class="card-directions__body">
+									<div class="card-directions__img _ibg">
+										<picture><source srcset="img/styles/min1000/house.webp" type="image/webp"><img src="img/styles/min1000/house.jpg" alt="House"></picture>
+									</div>
+									<div class="card-directions__text">Танец не имеющий чётких рамок и ограничений, в котором каждый может найти именно свою манеру и стиль выражения.</div>
+									<a href="" class="card-directions__button button">Пробное бесплатно</a>
+									<div class="card-directions__click-pointer">
+										<img src="img/click_icon.svg" alt="click-pointer">
+									</div>
+								</div>
+							</div>
+							<div id="hipHop" class="directions__card card-directions">
+								<div class="card-directions__title">Hip hop</div>
+								<div class="card-directions__body">
+									<div class="card-directions__img _ibg">
+										<img src="img/styles/min1000/hip hop.png" alt="Hip hop">
+									</div>
+									<div class="card-directions__text">Очень сложно устоять на месте, когда слышишь ритмы хип-хопа, проникающие глубоко в душу и зарождающие желание двигаться.</div>
+									<a href="" class="card-directions__button button">Пробное бесплатно</a>
+									<div class="card-directions__click-pointer">
+										<img src="img/click_icon.svg" alt="click-pointer">
+									</div>
+								</div>
+							</div>
+							<div id="pole" class="directions__card card-directions">
+								<div class="card-directions__title">Pole dance</div>
+								<div class="card-directions__body">
+									<div class="card-directions__img _ibg">
+										<picture><source srcset="img/styles/min1000/pole.webp" type="image/webp"><img src="img/styles/min1000/pole.png" alt="Pole dance"></picture>
+									</div>
+									<div class="card-directions__text">Удивительный, ни с чем не сравнимый стиль танца, в котором женщина прежде всего грациозная, манящая, соблазнительная.</div>
+									<a href="" class="card-directions__button button">Пробное бесплатно</a>
+									<div class="card-directions__click-pointer">
+										<img src="img/click_icon.svg" alt="click-pointer">
+									</div>
+								</div>
+							</div>
+							<div id="break" class="directions__card card-directions">
+								<div class="card-directions__title">Break-dance</div>
+								<div class="card-directions__body">
+									<div class="card-directions__img _ibg">
+										<picture><source srcset="img/styles/min1000/break.webp" type="image/webp"><img src="img/styles/min1000/break.png" alt="Break-dance"></picture>
+									</div>
+									<div class="card-directions__text">Брейк объединяет сложные физические элементы, музыкальность, развивает силу воли у каждого танцора.</div>
+									<a href="" class="card-directions__button button">Пробное бесплатно</a>
+									<div class="card-directions__click-pointer">
+										<img src="img/click_icon.svg" alt="click-pointer">
+									</div>
+								</div>
+							</div>
+							<div id="salsa" class="directions__card card-directions">
+								<div class="card-directions__title">Salsa</div>
+								<div class="card-directions__body">
+									<div class="card-directions__img _ibg">
+										<picture><source srcset="img/styles/min1000/salsa.webp" type="image/webp"><img src="img/styles/min1000/salsa.png" alt="Salsa"></picture>
+									</div>
+									<div class="card-directions__text">Основа танца — импровизация и взаимодействие с партнёром и со своим телом на интуитивном уровне.</div>
+									<a href="" class="card-directions__button button">Пробное бесплатно</a>
+									<div class="card-directions__click-pointer">
+										<img src="img/click_icon.svg" alt="click-pointer">
+									</div>
+								</div>
+							</div>
+							<div id="mix" class="directions__card card-directions">
+								<div class="card-directions__title">Dance-mix</div>
+								<div class="card-directions__body">
+									<div class="card-directions__img _ibg">
+										<picture><source srcset="img/styles/min1000/mix.webp" type="image/webp"><img src="img/styles/min1000/mix.jpg" alt="Dance-mix"></picture>
+									</div>
+									<div class="card-directions__text">Не можешь выбрать один стиль. Не беда. Комбинируй движения разных стилей и наслаждайся эффектом.</div>
+									<a href="" class="card-directions__button button">Пробное бесплатно</a>
+									<div class="card-directions__click-pointer">
+										<img src="img/click_icon.svg" alt="click-pointer">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="teachers" class="page__teachers teachers">
+				<div class="teachers__wrapper">
+					<div class="teachers__container">
+						<h2 class="teachers__title title_h2">Мы научим вас <span>танцевать</span> быть счастливыми</h2>
+					</div>
+					<div class="teachers__items">
+						<div class="teachers__column teachers__column-left">
+							<div class="teachers__item item-teachers item-teachers_small">
+								<div class="item-teachers__body _ibg">
+									<picture><source srcset="img/teachers/break.webp" type="image/webp"><img src="img/teachers/break.png" alt="break"></picture>
+								</div>
+								<div class="item-teachers__window window-item">
+									<div class="window-item__title">Денис Рам</div>
+									<div class="window-item__style">(Break-dance)</div>
+									<div class="window-item__text">Более драйвового стиля не существует. Приходи и убедись.</div>
+								</div>
+								<div class="item-teachers__click-pointer">
+									<img src="img/click_icon.svg" alt="click-pointer">
+								</div>
+							</div>
+							<div class="teachers__item item-teachers item-teachers_small">
+								<div class="item-teachers__body _ibg">
+									<picture><source srcset="img/teachers/pole.webp" type="image/webp"><img src="img/teachers/pole.png" alt="pole"></picture>
+								</div>
+								<div class="item-teachers__window window-item">
+									<div class="window-item__title">Марьяна Терентьева</div>
+									<div class="window-item__style">(Pole dance)</div>
+									<div class="window-item__text">Доверься инстинктам и наслаждайся произведённым эффектом.</div>
+								</div>
+								<div class="item-teachers__click-pointer">
+									<img src="img/click_icon.svg" alt="click-pointer">
+								</div>
+							</div>
+							<div class="teachers__item item-teachers item-teachers_small">
+								<div class="item-teachers__body _ibg">
+									<picture><source srcset="img/teachers/mix.webp" type="image/webp"><img src="img/teachers/mix.png" alt="dance-mix"></picture>
+								</div>
+								<div class="item-teachers__window window-item">
+									<div class="window-item__title">Алина Вонг</div>
+									<div class="window-item__style">(Salsa, Dance-mix)</div>
+									<div class="window-item__text">Ты способен на все. Раскроемся вместе?</div>
+								</div>
+								<div class="item-teachers__click-pointer">
+									<img src="img/click_icon.svg" alt="click-pointer">
+								</div>
+							</div>
+						</div>
+						<div class="teachers__column teachers__column-right">
+							<div class="teachers__item item-teachers item-teachers_small">
+								<div class="item-teachers__body _ibg">
+									<img src="img/teachers/hip hop.png" alt="hip hop">
+								</div>
+								<div class="item-teachers__window window-item">
+									<div class="window-item__title">Алексей Новиков</div>
+									<div class="window-item__style">(Hip-hop)</div>
+									<div class="window-item__text">Сначала учимся «отключать» голову, потом все остальное.</div>
+								</div>
+								<div class="item-teachers__click-pointer">
+									<img src="img/click_icon.svg" alt="click-pointer">
+								</div>
+							</div>
+							<div class="teachers__item item-teachers item-teachers_big">
+								<div class="item-teachers__body _ibg">
+									<picture><source srcset="img/teachers/house.webp" type="image/webp"><img src="img/teachers/house.png" alt="house"></picture>
+								</div>
+								<div class="item-teachers__window window-item">
+									<div class="window-item__title">Роберт Фокс</div>
+									<div class="window-item__style">(House)</div>
+									<div class="window-item__text">Слышать музыку также важно, как и двигаться под неё.</div>
+								</div>
+								<div class="item-teachers__click-pointer">
+									<img src="img/click_icon.svg" alt="click-pointer">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="prices" class="page__prices prices">
+				<div class="prices__container">
+					<div class="prices__body">
+						<h2 class="prices__title title_h2">А сколько стоит?</h2>
+						<div class="prices__items">
+							<div class="prices__item item-price">
+								<div class="item-prices__body">
+									<div class="item-price__title">«Для себя»</div>
+									<div class="item-price__count">2400 <span>₽</span></div>
+									<ul class="item-price__options">
+										<li class="item-price__option">
+											<div class="item-price__bullet-logo">
+												<img src="img/logo-svg.svg" alt="bullet-logo">
+											</div>
+											<div class="item-price__text">4 тренировки сроком на месяц;</div>
+										</li>
+										<li class="item-price__option">
+											<div class="item-price__bullet-logo">
+												<img src="img/logo-svg.svg" alt="bullet-logo">
+											</div>
+											<div class="item-price__text">1 стиль танца для выбора;</div>
+										</li>
+									</ul>
+								</div>
+								<a href="" class="item-price__button button">Купить</a>
+							</div>
+							<div class="prices__item item-price">
+								<div class="item-prices__body">
+									<div class="item-price__title">«Настроен серьезно»</div>
+									<div class="item-price__count">4000 <span>₽</span></div>
+									<ul class="item-price__options">
+										<li class="item-price__option">
+											<div class="item-price__bullet-logo">
+												<img src="img/logo-svg.svg" alt="bullet-logo">
+											</div>
+											<div class="item-price__text">8 тренировок сроком на месяц;</div>
+										</li>
+										<li class="item-price__option">
+											<div class="item-price__bullet-logo">
+												<img src="img/logo-svg.svg" alt="bullet-logo">
+											</div>
+											<div class="item-price__text">2 стиля танца для выбора;</div>
+										</li>
+										<li class="item-price__option">
+											<div class="item-price__bullet-logo">
+												<img src="img/logo-svg.svg" alt="bullet-logo">
+											</div>
+											<div class="item-price__text">индивидуальный шкафчик в раздевалке.</div>
+										</li>
+									</ul>
+								</div>
+
+								<a href="" class="item-price__button button">Купить</a>
+							</div>
+							<div class="prices__item item-price">
+								<div class="item-prices__body">
+									<div class="item-price__title">«Стану профи»</div>
+									<div class="item-price__count">8000 <span>₽</span></div>
+									<ul class="item-price__options">
+										<li class="item-price__option">
+											<div class="item-price__bullet-logo">
+												<img src="img/logo-svg.svg" alt="bullet-logo">
+											</div>
+											<div class="item-price__text">безлимитное посещение занятий сроком на месяц;</div>
+										</li>
+										<li class="item-price__option">
+											<div class="item-price__bullet-logo">
+												<img src="img/logo-svg.svg" alt="bullet-logo">
+											</div>
+											<div class="item-price__text">доступны все стили танца для выбора;</div>
+										</li>
+										<li class="item-price__option">
+											<div class="item-price__bullet-logo">
+												<img src="img/logo-svg.svg" alt="bullet-logo">
+											</div>
+											<div class="item-price__text">индивидуальный шкафчик в раздевалке.</div>
+										</li>
+										<li class="item-price__option">
+											<div class="item-price__bullet-logo">
+												<img src="img/logo-svg.svg" alt="bullet-logo">
+											</div>
+											<div class="item-price__text">бесплатное участие в еженедельных «батлах».</div>
+										</li>
+									</ul>
+								</div>
+
+								<a href="" class="item-price__button button">Купить</a>
+							</div>
+							<div class="prices__item item-price">
+								<div class="item-prices__body">
+									<div class="item-price__title">«Один на один»</div>
+									<div class="item-price__count">1500 <span>₽</span></div>
+									<ul class="item-price__options">
+										<li class="item-price__option">
+											<div class="item-price__bullet-logo">
+												<img src="img/logo-svg.svg" alt="bullet-logo">
+											</div>
+											<div class="item-price__text">одно индивидуальное занятие с тренером;</div>
+										</li>
+										<li class="item-price__option">
+											<div class="item-price__bullet-logo">
+												<img src="img/logo-svg.svg" alt="bullet-logo">
+											</div>
+											<div class="item-price__text">любой стиль на выбор.</div>
+										</li>
+									</ul>
+								</div>
+
+								<a href="" class="item-price__button button">Купить</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="schedule" class="page__schedule schedule">
+				<div class="schedule__container">
+					<div class="schedule__body">
+						<h2 class="schedule__title title_h2">Расписание</h2>
+						<div data-one-select class="schedule__forms">
+							<select class="schedule__form-age" name="form[]" data-class-modif="form">
+								<option value="1" selected>Взрослые</option>
+								<option value="2">Дети</option>
+							</select>
+							<select class="schedule__form-styles" name="form[]" data-class-modif="form">
+								<option value="1" selected>Hip hop</option>
+								<option value="2">House</option>
+							</select>
+							<button type="button" class="schedule__button button">Показать расписание</button>
+						</div>
+						<div class="schedule__images">
+							<div id="hop_adult" class="schedule__image _ibg">
+								<picture>
+									<source media="(min-width:1000px)" srcset="img/schedule/hipHop_adult-bolee-1000.png">
+									<source media="(min-width:768px)" srcset="img/schedule/hipHop_adult-1000-768.png">
+									<img src="img/schedule/hipHop_adult-360.png" alt="hip hop for adult">
+								</picture>
+							</div>
+							<div id="hop_kids" class="schedule__image _ibg">
+								<picture>
+									<source media="(min-width: 1000px)" srcset="img/schedule/hipHop_kids-bolee-1000.png">
+									<source media="(min-width: 768px)" srcset="img/schedule/hipHop_kids-1000-768.png">
+									<img src="img/schedule/hipHop_kids-360.png" alt="hip hop for kids">
+								</picture>
+							</div>
+							<div id="house_adult" class="schedule__image _ibg">
+								<picture>
+									<source media="(min-width: 1000px)" srcset="img/schedule/house_adult-bolee-1000.png">
+									<source media="(min-width: 768px)" srcset="img/schedule/house_adult-1000-768.png">
+									<img src="img/schedule/house_adult-360.png" alt="house for adult">
+								</picture>
+							</div>
+							<div id="house_kids" class="schedule__image _ibg">
+								<picture>
+									<source media="(min-width: 1000px)" srcset="img/schedule/house_kids-bolee-1000.png">
+									<source media="(min-width: 768px)" srcset="img/schedule/house_kids-1000-768.png">
+									<img src="img/schedule/house_kids-360.png" alt="house for kids">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="reviews" class="page__reviews reviews">
+				<div class="reviews__container">
+					<div class="reviews__body">
+						<h2 class="reviews__title title_h2">Отзывы тех, кто попробовал</h2>
+						<div class="reviews__slider swiper">
+							<div class="reviews__wrapper swiper-wrapper">
+								<div class="reviews__slide swiper-slide slide-review">
+									<div class="slide-review__body">
+										<div class="slide-review__text">Поверить не могу, что не попробовала это раньше. Это не просто танец, а самовыражение. Я больше стала верить в себя и радоваться жизни. Спасибо за эту возможность.</div>
+										<div class="slide-review__user">
+											<div class="slide-review__ava _ibg">
+												<picture><source srcset="img/reviews/avatars/ava_1.webp" type="image/webp"><img src="img/reviews/avatars/ava_1.png" alt="user ava"></picture>
+											</div>
+											<div class="slide-review__info">
+												<div class="slide-review__name">Карина В.</div>
+												<div class="slide-review__style">Pole dance</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide slide-review">
+									<div class="slide-review__body">
+										<div class="slide-review__text">Не думал, что буду ходить на тренировки с таким удовольствием. В школе вас ждёт супер весёлая и комфортная атмосфера. Тренер Алексей не даст уйти с занятия с плохим настроением и запасом энергии).
+											Не сомневайся, приходи и присоединяйся к нам в команду.</div>
+										<div class="slide-review__user">
+											<div class="slide-review__ava _ibg">
+												<picture><source srcset="img/reviews/avatars/ava_2.webp" type="image/webp"><img src="img/reviews/avatars/ava_2.png" alt="user ava"></picture>
+											</div>
+											<div class="slide-review__info">
+												<div class="slide-review__name">Дмитрий Р.</div>
+												<div class="slide-review__style">Hip hop</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide slide-review">
+									<div class="slide-review__body">
+										<div class="slide-review__text">Я много чем занимался в жизни, но брейк ни с чем не сравнится.
+											Сила, скорость, гибкость, драйв и не перечислить всех преимуществ, что дают мне эти занятия. Спасибо.</div>
+										<div class="slide-review__user">
+											<div class="slide-review__ava _ibg">
+												<picture><source srcset="img/reviews/avatars/ava_3.webp" type="image/webp"><img src="img/reviews/avatars/ava_3.png" alt="user ava"></picture>
+											</div>
+											<div class="slide-review__info">
+												<div class="slide-review__name">Михаил С.</div>
+												<div class="slide-review__style">Break-dance</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide slide-review">
+									<div class="slide-review__body">
+										<div class="slide-review__text">Сначала не хотел идти на занятие, девушка уговорила. Потом так втянулся, что до сих пор её благодарю за эту возможность.</div>
+										<div class="slide-review__user">
+											<div class="slide-review__ava _ibg">
+												<picture><source srcset="img/reviews/avatars/ava_4.webp" type="image/webp"><img src="img/reviews/avatars/ava_4.png" alt="user ava"></picture>
+											</div>
+											<div class="slide-review__info">
+												<div class="slide-review__name">Иван С.</div>
+												<div class="slide-review__style">Salsa</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide slide-review">
+									<div class="slide-review__body">
+										<div class="slide-review__text">Сначала занимался hip-hop, но всегда засматривался на занятия по house. Наконец, реализовал свою мечту и не прогадал. Роберт отличный учитель, который мастерски может увлечь данным стилем танца.</div>
+										<div class="slide-review__user">
+											<div class="slide-review__ava _ibg">
+												<picture><source srcset="img/reviews/avatars/ava_5.webp" type="image/webp"><img src="img/reviews/avatars/ava_5.png" alt="user ava"></picture>
+											</div>
+											<div class="slide-review__info">
+												<div class="slide-review__name">Владимир Д.</div>
+												<div class="slide-review__style">House</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide slide-review">
+									<div class="slide-review__body">
+										<div class="slide-review__text">С детства занималась танцами, поэтому знала что искать. Здесь нашла все, что нужно: профессионального тренера, удобный зал, индивидуальный подход.</div>
+										<div class="slide-review__user">
+											<div class="slide-review__ava _ibg">
+												<picture><source srcset="img/reviews/avatars/ava_6.webp" type="image/webp"><img src="img/reviews/avatars/ava_6.png" alt="user ava"></picture>
+											</div>
+											<div class="slide-review__info">
+												<div class="slide-review__name">Диана Н.</div>
+												<div class="slide-review__style">Dance-mix</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="reviews-button-prev reviews-button _icon-arrow-down"></button>
+							<button type="button" class="reviews-button-next reviews-button _icon-arrow-down"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__questions questions">
+				<div class="questions__container">
+					<div class="questions__body">
+						<h2 class="questions__title title_h2">Ответы на вопросы</h2>
+						<div data-spollers data-one-spoller data-spollers-speed="700" class="questions__spollers spollers">
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									<div class="spollers__text">Я никогда раньше не занималась танцами. Я буду успевать за программой?</div>
+									<div class="spollers__cross"></div>
+								</button>
+								<div class="spollers__body">Конечно будете. Программа группы «взрослые новички» направлена на тех, кто никогда не занимался танцами. Тренер три года тренирует группы с новичками и выводит их на продвинутый уровень. Если ученик не успевает за тренером, движение повторяется, пока не усвоится у всех.
+									Главное не боятся и пробовать!</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									<div class="spollers__text">Мне 36 лет, хочу пойти в брейк. Это возможно в таком возрасте?</div>
+									<div class="spollers__cross"></div>
+								</button>
+								<div class="spollers__body">Конечно, если вам от трёх до девяносто лет, вы можете заниматься. Тренер определит ваш уровень и распределит в группу с такими же учениками.</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									<div class="spollers__text">Могу ли я сменить стиль, если пойму что он мне не подходит?</div>
+									<div class="spollers__cross"></div>
+								</button>
+								<div class="spollers__body">Да, это не проблема. Вы можете переоформить абонемент на другой стиль танца один раз в месяц.</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									<div class="spollers__text">Мне подберут партнёра, если я пойду на сальсу?</div>
+									<div class="spollers__cross"></div>
+								</button>
+								<div class="spollers__body">При записи на парные виды танцев мы сразу сообщаем есть ли свободный партнёр для вас. Если партнёра нет, мы ставим вас в лист ожидания и, при его появлении, сразу сообщаем вам об этом.</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									<div class="spollers__text">Можно ли пропускать тренировки?</div>
+									<div class="spollers__cross"></div>
+								</button>
+								<div class="spollers__body">Пропускать тренировки без уважительной причины нельзя. Уважительной причинами являются: проблемы со здоровьем, командировка, отпуск с предупреждением за неделю.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer id="footer" class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__info info-footer">
+						<div class="info-footer__navigation">
+							<div class="info-footer__adress">
+								<div class="info-footer__street">Скорняжный пер., 9</div>
+								<div class="info-footer__city">105037, г. Москва</div>
+							</div>
+							<div class="info-footer__contacts">
+								<a href="tel:+73035550105" class="info-footer__phone">+7 (303) 555-0105</a>
+								<ul class="info-footer__socials socials-footer">
+									<li class="socials-footer__item">
+										<a href="" class="socials-footer__link">
+											<img src="img/socials-icon/vk.svg" alt="vk">
+										</a>
+									</li>
+									<li class="socials-footer__item">
+										<a href="" class="socials-footer__link">
+											<img src="img/socials-icon/whatsapp.svg" alt="whapp">
+										</a>
+									</li>
+									<li class="socials-footer__item">
+										<a href="" class="socials-footer__link">
+											<img src="img/socials-icon/telegram.svg" alt="telegram">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<a href="" class="info-footer__button button">Пробное бесплатно</a>
+						</div>
+						<div class="info-footer__location">
+							<div class="info-footer__map _ibg">
+								<picture><source srcset="img/map/map_without-pin.webp" type="image/webp"><img class="map" src="img/map/map_without-pin.png" alt="Perevalnya 9"></picture>
+							</div>
+							<div class="pin"><img src="img/map/logo.svg" alt="logo-pin"></div>
+							<div class="shadow"><img src="img/map/ellipse.svg" alt="shadow-pin"></div>
+						</div>
+					</div>
+					<ul class="footer__copyright copyright-footer">
+						<li class="copyright-footer__item">Конфиденциальность</li>
+						<li class="copyright-footer__item">Пользовательское соглашение</li>
+						<li class="copyright-footer__item">Все права защищены. 2023</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js?_v=20230704195928"></script> -->
+	<script src="js/app.min.js?_v=20230704195928"></script>
+</body>
+
+</html>
